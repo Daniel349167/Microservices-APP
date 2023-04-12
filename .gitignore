@@ -1,0 +1,7 @@
+# compiled output
+antifraud/dist/
+antifraud/node_modules/
+
+transaction/dist/
+transaction/node_modules/
+
