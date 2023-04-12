@@ -4,10 +4,9 @@ export class CreateTransactionDto {
   constructor() {
     console.log('CreateTransactionDto constructor called');
   }
-  @IsNotEmpty()
+
   accountExternalIdDebit?: string | null;
 
-  @IsNotEmpty()
   accountExternalIdCredit?: string | null;
 
   @IsNotEmpty()
